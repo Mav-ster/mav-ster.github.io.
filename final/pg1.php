@@ -1,0 +1,4 @@
+<div id="img">
+<p id="text">Lumity is a ship name between these two character (Luz and Amity) from the famous Disney show, The Owl House (TOH). It's been 3 years since the shows finale and I was inspired to draw fanart of this couple due to the impact it had on queer media at the time. This small comic strip is actually set in an alternate universe where both the chracteers were actors on TOH and Luz goes missing 3 years after the finale of the show just to reappear as the masked singer for a band Amity really loves. I would love to go into more detail about this AU but, This is not fanfiction.</p>
+<img class="doodles" src="../Final/images/Lumity2.jpg" alt="lumity">
+</div>

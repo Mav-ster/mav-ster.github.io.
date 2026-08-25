@@ -1,0 +1,4 @@
+<div id="img">
+<p id="text">This is an original character I made that was inspired by alot of coming of age films surrounding teens in highschool. Some heavy inspiration comes from the <i>breakfast club</i>, <i>Rebelde!</i>, and <i>Grand Army</i>. The character doesn't have a name (actual name) however; I do call her <i>girl in a band</i>. She's the lead guitarist and singer for a band of misfits. I created this story with the idea of having the sterotypical highschool cliques so there are jocks, nerds, and all in between. Her story revoles around enemies to lovers so it's her and a cheerleader slowly falling in love with eachother.</p>
+<img class="doodles" src="images/gib1.jpg" alt="oc">
+</div>
