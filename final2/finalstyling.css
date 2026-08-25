@@ -1,0 +1,349 @@
+		*{
+			box-sizing: border-box;
+			padding:0;
+			margin:0;
+		}
+		body{
+			text-indent: 5%;
+			margin:0 7%;
+			background-image: url("../final2/Images/background-img.JPG");
+			background-repeat: no-repeat;
+			background-size:cover;
+			background-attachment: fixed;
+			color:white;
+			display: flex;
+			flex-direction: column;
+			min-height: 100vh;
+		}
+/*flex */
+#wrapper{
+	display:flex;
+	flex-flow: row nowrap;
+	align-items: flex-start;
+	margin: 10% 0 0;
+	gap:1rem;
+	flex: 1;
+}
+#extras{
+	display:flex;
+	flex-flow: column nowrap;
+	order:1;
+}
+.links{
+	align-self: flex-start;
+	order:1;
+}
+.links2{
+	align-self: flex-start;
+	order:2;
+}
+#extras, .links, .links2{
+	flex:1 1 25%;
+}
+/* */
+		
+		header{
+			padding: 1em 1em 3em;
+			border-radius: 0 0 10% 10%;
+			 background-color:rgba(140,126,142,0.57);
+			height:35%;
+			letter-spacing: .5em;
+		}
+		
+		
+		#background{
+			background-image: url("../final2/Images/background-img.JPG");
+			background-size: cover;
+			background-attachment: fixed; 
+		}
+
+		header, footer{
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+			text-align: center;
+			clear: both;
+		}
+		#main{
+			flex: 1 3 60%;
+			align-self: stretch;
+			order: 3;
+			background-color:rgba(140,126,142,0.57);
+			font-size:1.4em;
+			padding: 1% 5%;
+			border: solid #2E262A 4px;
+			border-radius: 10px 45px 45px;
+		}
+
+		#img-one{
+			width:60%;
+			float: left;
+			margin: 2% 3%;
+			border-radius: 3%;
+			transition: .5s ease-in-out;
+			max-width: 100%; height:auto;
+		}
+		#img-one:hover{
+			box-shadow: 5px 4px 3px #2E262A;
+		}
+		#img-two{
+			margin-top: 5%;
+			margin-left: 27%;
+			border-radius: 3%;
+			transition: .5s ease-in-out;
+			max-width: 100%; height:auto;
+		}
+		#img-two:hover{
+			box-shadow: 5px 4px 3px #2E262A;
+		}
+		
+		nav a:link{
+			text-decoration: none;
+			color:white;
+			font-variant:small-caps;
+			white-space: nowrap;
+			display:block;
+			transition: border-color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+			border-top: 2px solid transparent;
+			text-align: center;
+		}
+		nav a:visited{
+			color:#DECADC;
+		}
+		nav a:hover{
+			border-top-color: white;
+			text-shadow: 3px 3px 3px #4F1C30;
+		}
+		nav a:active{
+			transform:translateY(3px);
+			
+		}
+		nav{
+			
+			order:1;
+			background-color: rgba(140,126,142,0.57);
+ 			 width:90%;
+  			padding-bottom: 1%;
+  			font-size: 1.7em;
+  			border-radius: 10%;
+  			border: solid #2E262A 3px;
+			margin-bottom: 20%;
+		}
+		nav ul{
+			overflow: hidden;
+			display: flex;
+			flex-flow: column nowrap;
+			align-items: stretch;
+			gap: 7rem;
+ 			padding: 2rem;
+		}	
+
+		a:link{
+			color:#D2B7D9;
+		}
+
+		a:visited{
+			color:#7A5384;
+		}
+		a:hover{
+			color:#A893AD;
+			text-shadow: 3% white;
+		
+		}
+		a:active{
+			color:white;
+			transform:translateY(3px);
+		}
+		ul{
+			list-style: none;
+			text-align: center;
+			padding: 0;
+			
+		}
+		h3{
+			text-align: center;
+			margin-right: 3%;
+		}
+		
+		#underline{
+			margin: 0 auto;
+			width:60%;
+			display: block;
+		}
+		#divider{
+			width:80%;
+			margin: 0 auto;
+			dsiplay:block;
+		}
+		.home{
+			background-color:rgba(140,126,142,0.57);
+			margin: 0 0 0 50%;
+			padding:15%;
+			font-size: 1.5em;
+			border-radius: 20% 20%;
+			border:solid #2E262A 3px;
+			text-align: center;
+			white-space: nowrap;
+		}
+
+		sidebar{
+			font-size: .7em;
+		}
+		footer{
+	margin-top: auto;
+		}
+.images{
+	width:50%;
+	height:auto;
+}
+.bands{
+	display: flex;
+	flex-flow: column nowrap;
+	order:2;
+	width:80%;
+	height:auto;
+}
+.image-wrapper{
+	display:flex;
+	justify-content: center;
+	margin:5%;
+}
+/*Concert 1 code */
+		#body2{
+		background-image: url("../final2/Images/bkbackground2.jpg");
+		background-size:cover;
+		background-attachment:fixed;
+		background-blend-mode:multiply;
+		background-color: rgba(0,0,0,0.59);
+		}
+		#nav2{
+			background-color:rgba(140,126,142,0.57);;
+			background-image:url("Images/navbar2.jpg");
+			background-attachment:fixed;
+			background-size: cover;
+			background-blend-mode:luminosity;
+			}
+/* TOP images */
+		#TOP2, #top{ 
+			border-radius: 3%;
+			transition: .5s ease-in-out;
+		}
+		#TOP2:hover, #top:hover{
+			box-shadow: 5px 4px 3px #401717;
+		}
+/*-------- */
+		#bandlogo{
+			float:left;
+			margin-top: 20%;
+			margin-left: 4%;
+			border-radius: 60%;
+			transition-property: box-shadow;
+			transition: .3s linear;
+			max-width: 100%; height:auto;
+		}
+		#bandlogo:hover{
+	box-shadow: 8px 4px 8px #441819, 9px 8px 5px #E41D1E;
+		}
+.images2{
+	width:80%;
+	height:auto;
+}
+/*Concert 2 code */
+		#body3{
+		background-image: url("../final2/Images/bkbackground3-img.jpg");
+		background-size:cover;
+		background-position: center;
+		background-attachment: fixed;
+			background-blend-mode: multiply;
+		background-color: rgba(0,0,0,0.59);
+		}
+		#nav3{
+			background-color:rgba(140,126,142,0.57);
+			background-image:url("Images/navbar3.jpg");
+			background-size: cover;
+			background-position: center;
+			background-attachment:fixed;
+			background-blend-mode:luminosity;
+		}
+		.images3{
+			border-radius: 3%;
+				transition: .5s ease-in-out;
+				max-width: 100%; height:auto;
+		}
+		.images3:hover{
+			box-shadow: 5px 4px 3px #171246;
+		}
+	#bandlogo2{
+			margin: 40% 0 4% 7%;
+			border-radius: 25% 25% 35% 35%;
+			transition-property: box-shadow;
+			transition: .3s linear;
+		}
+		#bandlogo2:hover{
+		box-shadow: 8px 4px 8px #030BA6, 9px 8px 5px#020659;
+		}
+/*Concert 3 code*/
+		#body4{
+		background-image: url("../final2/Images/bkbackground4.jpg");
+		background-size:cover;
+		background-attachment:fixed;
+		background-blend-mode:multiply;
+		background-color: rgba(0,0,0,0.59);
+		}
+		#nav4{
+			background-color:rgba(140,126,142,0.57);;
+			background-image:url("Images/navbar4.jpg");
+			background-attachment:fixed;
+			background-size: cover;
+			background-blend-mode:luminosity;
+			}
+		.GIR{ 
+			border-radius: 3%;
+			transition: .5s ease-in-out;
+		}
+		.GIR:hover{
+			box-shadow: 5px 4px 3px #401717;
+		}
+		#image5,#image6{
+			width:85%;
+			height:auto;
+
+		}
+		#bandlogo3{
+			margin: 40% 0 10% 4%;
+			transition-property: box-shadow;
+			transition: .3s linear;
+			max-width: 100%; height:auto;
+		}
+		#bandlogo3:hover{
+		box-shadow: 8px 4px 8px #401717, 9px 8px 5px #E41D1E;
+		}
+/*Concert 4 code*/
+		#body5{
+		background-image: url("../final2/Images/bkbackground5.jpg");
+		background-size:cover;
+		background-attachment:fixed;
+		background-blend-mode:multiply;
+		background-color: rgba(0,0,0,0.59);
+		}
+		#nav5{
+			background-color:rgba(140,126,142,0.57);;
+			background-image:url("Images/navbar5.JPG");
+			background-attachment:fixed;
+			background-size: cover;
+			background-blend-mode:luminosity;
+			}
+		.images4{
+			border-radius: 3%;
+				transition: .5s ease-in-out;
+				max-width: 100%; height:auto;
+		}
+		.images4:hover{
+		box-shadow: 5px 4px 3px #2B1C8C;
+		}
+		#bandlogo4{
+			margin: 60% 0 4%;
+			transition-property: box-shadow;
+			transition: .3s linear;
+		}
+		#bandlogo4:hover{
+	box-shadow: 8px 4px 8px #2B1C8C, 9px 8px 5px #0B0F59;
+		}
