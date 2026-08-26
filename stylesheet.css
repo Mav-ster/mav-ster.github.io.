@@ -435,7 +435,6 @@ nav a:active{
     grid-template-rows: auto auto;
     justify-items: center;
 	align-items: center;
-	overflow:hidden;
 	 border: 5px solid white;
     border-radius: 20px;
    	width: 100%;
@@ -548,4 +547,5 @@ nav a:active{
 	.box:nth-child(3){
 		grid-column: span 1;
 	}
+	
 }
