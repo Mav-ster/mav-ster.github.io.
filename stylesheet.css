@@ -19,6 +19,12 @@ body{
 	background-color: #161417;
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 }
+#main{
+	margin-top: 3%;
+}
+#top{
+	scroll-margin-top: 100px;
+}
 /*scrollbar*/
 ::-webkit-scrollbar{
 	display: none;
@@ -28,11 +34,11 @@ header {
 	background-color:#58558F;
     display: grid;
     grid-template-columns:1fr .7fr;
-	box-shadow: 3px 3px 5px;
+	box-shadow: 3px 3px 3px;
 }
 #logo{
 	color: white;
-	margin: 3% 0 0 3%;
+	margin: 3% 0 0 4%;
 	align-self: flex-start;
 }
 /*star twinkle */
@@ -84,6 +90,7 @@ header {
   	animation-iteration-count: 1;
   	animation-direction: normal;
   	animation-fill-mode: both;
+	flex-direction: column-reverse;
 }
 #shadow{
 	text-shadow: 3px 3px #EA81CD;
@@ -434,8 +441,8 @@ nav a:active{
 	display: grid;
     grid-template-rows: auto auto;
     justify-items: center;
-	overflow: visible;
 	align-items: center;
+	overflow: visible;
 	 border: 5px solid white;
     border-radius: 20px;
    	width: 100%;
