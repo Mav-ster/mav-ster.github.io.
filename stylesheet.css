@@ -434,6 +434,7 @@ nav a:active{
 	display: grid;
     grid-template-rows: auto auto;
     justify-items: center;
+	overflow: visible;
 	align-items: center;
 	 border: 5px solid white;
     border-radius: 20px;
